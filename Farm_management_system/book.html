@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin from body */
+  padding: 20px; /* Add some padding for content */
+}
+
+h1 {
+  text-align: center;
+}
+
+.book {
+  margin: 20px auto;
+  max-width: 800px; /* Set a maximum width for the content area */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Add some rounded corners */
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 100%; /* Scale images to fit their container */
+  display: block; /* Make images behave like block elements */
+  margin-bottom: 10px;
+}
+
+</style>
+<body>
+    <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="book.html">My Book</a></li>
+        </ul>
+      </nav>
+    <h1>MY BOOK</h1>
+    <div class="book">
+        <h2>1. DATABASE</h2>
+        <ol>
+            <li><h4>Farm TABLE:</h>refers to the overall agricultural entity being managed. It could represent a single property or encompass multiple plots of land. The system might store data specific to the farm as a whole, such as location, size, and general characteristics.</li>
+            <li><h4>Users table:</h4>This could represent the individuals who have access to the farm management system. This might include the farm owner, managers, employees, or even consultants depending on the system's setup.</li>
+            <li><h4>A Crop table:</h4> This section likely details the various crops being grown on the farm.  Crops might be identified by type (corn, soybeans, lettuce, etc.)  The system could store information specific to each crop, like planting dates, harvest schedules, and yield data. </li>
+            <li><h4>A Field table: </h4>This likely represents individual areas within the farm where crops are planted.  Fields might be identified by location or assigned names..</li>
+
+        </ol>
+        <h2>2 . JAVA PROGRAMMING</h2>
+        <ol>
+            <li><h3>Introduction</h3>In this chapter I will be describing how powerful general-
+                purpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been described above and how it copes with a fully analyzed system.</li>
+                <li><h3>Tools used to develop this system in java programming:</h3>
+                <ul>
+                    <li>Eclipse IDE: an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular.</li>
+                    <li>JAR stands for Java Archive. It's a file format based on the popular ZIP file format and
+                        is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components.
+                        MySQL Connectors. MySQL provides standards-based drivers for JDBC, ODBC, and
+                        .Net enabling developers to build database applications in their language</li>
+                </ul>
+                </li>
+            <li>
+                <h3>Forms in Farm management Project and their descriptions</h3>
+                <ol>
+                    <li><h3>WELCOME PAGE OR LANDING PAGE IN MY ECLASS MANAGEMENT SYSTEM</h3>
+                      This likely represents individual areas within the farm where crops are planted.  Fields might be identified by location or assigned names.
+<img src="./farm/welcome page.PNG" alt=""><br>
+From this form 2 button login, Register are there with different direction and function in the system but all having same goal. Login: this button is dedicated for system admin, to login so that he/she can do more in the system. Register: individual user  can register on his/her own so this register button will direct this employee to form to fill his/her information.  
+
+                    </li>
+                    <li>
+                        <h3>Login form</h3>
+                        As we have described in above page login button will direct as on this users login page.
+                        <img src="./farm/login page.PNG"><br>
+                        
+                    </li>
+                    <li>
+                        <h3>SIGN UP FORM</h3>
+                        As we have described in above page login button will direct as on this users login page.
+                        <img src="./farm/sign up.PNG"><br>
+                    </li>
+                    <li>
+                        <h3>HOME PAGE</h3>
+                        This homepage serves as the gateway to the Farm Management System, offering users a glimpse into its functionality and features. Let's break it down:
+   Navigation Buttons:
+	PURCHASES: This button takes users to the section where they can manage purchases related to farming operations.
+	PRODUCTION: Allows users to handle production-related tasks within the system.
+	SALES: Users can navigate to this section to manage sales transactions.
+	REPORT: Provides access to generate and view various reports related to farm management.
+
+                        <img src="./farm/home page.PNG"><br>
+                        
+                    </li>
+                    <li>
+                        <h3>PURCHASE PAGE</h3>
+                        As we mentions before When you click on the "PURCHASE" button, you'll be taken to a  This "purchases" page serves as a platform for managing purchase-related activities within the Farm Management System. Here's a breakdown of its functionalities:
+Input Fields:
+	Product Name: Allows users to input the name of the product being purchased.
+	Quantity: Field to specify the quantity of the product being purchased.
+	Unit Price: Field for entering the unit price of the product.
+	Purchase Date: Enables users to specify the date of purchase.
+Buttons:
+	ADD: Adds the entered purchase details into the system.
+	DELETE: Deletes a purchase entry based on the provided purchase ID.
+	UPDATE: Updates existing purchase information.
+	VIEW: Displays a table with all purchase records for reference.
+Table View:
+	A table provides a comprehensive view of all purchases made, including details such as purchase ID, product name, quantity, unit price, total price, and purchase date.
+
+                        <img src="./farm/purchase page.PNG"><br>
+                    </li>
+                    <li>
+                        <h3>Sales page</h3>
+                        The "sales_entity" page serves as a platform for managing sales-related activities within the Farm Management System. Here's a breakdown of its functionalities:
+Input Fields:
+	Product Name: Allows users to input the name of the product being sold.
+	Quantity: Field to specify the quantity of the product being sold.
+	Unit Price: Field for entering the unit price of the product.
+	Sales Date: Enables users to specify the date of the sales transaction.
+Buttons:
+	ADD: Adds the entered sales details into the system.
+	DELETE: Deletes a sales entry based on the provided sales ID.
+	UPDATE: Updates existing sales information.
+	VIEW: Displays a table with all sales records for reference.
+Table View:
+	A table provides a comprehensive view of all sales transactions made, including details such as sales ID, product name, quantity, unit price, total price, and sales date.
+
+                        <img src="./farm/sales.PNG"><br>
+                    </li>
+                    <li>
+                        <h3>PRODUCTION PAGE</h3>
+                        The "productions" page facilitates the management of production-related activities where to records all production and added in stock within the Farm Management System. Here's a breakdown of its functionalities:
+                        <img src="./farm/production.PNG"><br>
+                    </li>
+                    <li>
+                      <h3>REPORT PAGE</h3>
+                      The "Report" page facilitates the management to generate the report of all activities carried out in the system from purchases of fruits productions of products to sales of products and incomes
+
+                      <img src="./farm/production.PNG"><br>
+                  </li>
+                  <li>
+                    <p>In conclusion, this chapter focuses on Java programming, particularly in the system I developed. I'm pleased to have achieved the desired final product, with effective data management and an attractive design. However, there are areas that still require improvement, and valuable insights from external perspectives, not just from the developer's viewpoint, can help identify these areas. While I'm satisfied with the </p>
+                </li>
+                </ol>
+
+            
+            </li>    
+        </ol>
+    </div>
+</body>
+</html>
